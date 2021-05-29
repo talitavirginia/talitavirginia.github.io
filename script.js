@@ -35,7 +35,7 @@ function attachListeners(){
 			hideBoxes();
 		});
 		element.addEventListener('click', e=>{
-			window.open = 'interview.php';
+			window.open = 'interview.php?';
 		});
 
 	});
