@@ -35,7 +35,7 @@ function attachListeners(){
 			hideBoxes();
 		});
 		element.addEventListener('click', e=>{
-			window.location = 'interview.php'
+			window.location = 'interview.php?time='+box.dataset.time;
 		});
 
 	});
